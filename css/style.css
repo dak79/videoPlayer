@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(32deg, rgba(0, 255, 255, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1), rgba(0, 255, 255, 0.8), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
+}
+
+h1 {
+  color: white;
+  margin: 0.5em 0;
+}
+
+main {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+video {
+  height: 20em;
+  width: 30em;
+  background-color: black;
+  color: rgba(0, 255, 255, 1);
+  outline: none;
+}
+
+#videoControls {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+button {
+  margin: 0.5em;
+  padding: 1em;
+  color: white;
+  background: black;
+  border: 10px groove rgba(0, 255, 255, 1);
+}
+
+img {
+  max-width: 10em;
+}
+
+span {
+  margin: 0.2em;
+  display: inline-block;
+  background-color: rgba(0, 255, 255, 1);
+  padding: 0.1em;
+  color: black;
+}
+
+span:hover {
+  background-color: black;
+  color: white;
+}
+
+button:hover {
+  background: rgba(0, 255, 255, 1);
+  border: 10px groove black;
+  color: black;
+}
+
+button:focus,
+input:focus {
+  outline: none;
+}

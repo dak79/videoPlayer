@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>Video Player</title>
+  </head>
+
+  <body>
+    <main>
+
+
+      <header>
+        <h1>Video Player</h1>
+      </header>
+      <section id="videoPlayer">
+        <video controls id="myVideo">
+          <source src="https://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_480p_stereo.ogg" type="video/ogg">
+        </video>
+
+      </section>
+      <section id="videoControls">
+        <button type="button" id="play">Play</button>
+        <button type="button" id="rewind">Rewind</button>
+        <button type="button"><span id="volDown">&nbsp-&nbsp</span>Volume<span id="volUp">&nbsp+&nbsp</span></button>
+        <button type="button" id="mute">Mute</button>
+      </section>
+      <section id="playlist">
+        <img src="https://peach.blender.org/wp-content/uploads/bbb-splash.thumbnail.png" alt="thumb" id="rabbitThumb" />
+        <img src="https://mainline.i3s.unice.fr/mooc/week2p1/sintel.jpg" alt="thumb" id="sintelThumb" />
+        <img src="https://mainline.i3s.unice.fr/mooc/week2p1/caminandes-1.jpg" alt="thumb" id="caminandesThumb" />
+
+      </section>
+    </main>
+  </body>
+
+</html>
